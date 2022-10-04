@@ -1,8 +1,9 @@
 
 # Saksham store: A web-app-store
 
-WebX is a streamlined website which focuses on providing various free frontend web development tools and inspiration all at one place.
-## You can Have a look at website [**here**](https://yashikabhargava.github.io/WebX/)
+The store where you put yourself in auction and get appreciated with others Inshort , you can deploy your React ,Django , Flutter , Android Application and showcase to the visitors Hit the deploy button and becaome a stall owner in this Store , You can submit your Ideas 
+
+
 
 ## Built with
 
