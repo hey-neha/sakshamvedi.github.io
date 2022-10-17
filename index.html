@@ -49,10 +49,34 @@
   </style>
   <title>Saksham Store</title>
 </head>
+  <style>
+    .rotateimg(
+    transition : 0.5s;
+    )
+    .rotateimg:hover(
+       transform:rotate(360deg);
+    )
+    
+    
+  </style>
 
 <body>
   <header class="text-gray-600 body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+        <a class="mr-5 hover:text-red-900 color-blue"> Home</a>
+        <a class="mr-5 hover:text-red-900"> Notes </a>
+        <a href="learning.html" class="mr-5 hover:text-red-900"> Learning Paths </a>
+        <a href="checklist.html" class="mr-5 hover:text-red-900"> SDE Sheets</a>
+        <a class="mr-5 hover:text-red-900">Store </a>
+
+      </nav>
+      <a
+        class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+        <img src="l1.png" style="height: 70px; width: 70px;"  class = "rotateimg">
+        </svg>
+        <span class="ml-1 text-xl">Saksham Store </span>
+      </a>
       <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
         <button
           class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
