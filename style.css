@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 
+.container{
+  display: flex;
+  justify-content: center;
+}
+
 
 .social a{
   font-size: 4.5em;
